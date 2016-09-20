@@ -13,6 +13,23 @@ Apresentação pode ser [vista aqui](https://docs.google.com/presentation/d/1Xdq
 
 ## Desenvolvedores
 
-Marcos Echevarria quinho@gmail.com
+Marcos Echevarria quinho@gmail.com @echevarria
 Luthiano Venecian venecian@gmail.com
 
+## Instalação
+
+1. Configure o arquivo `.env` com as configurações do ambiente local
+
+2. Instanlando via composer (na raiz do projeto)
+    ```composer install```
+
+3. Crie a base de dados que foi configurada no `.env`
+
+4. Rode as migrations
+```php artisan migrate```
+
+5. Gere os seeds para a aplicação
+```php artisan db:seed```
+
+6. Rode a aplicação
+```php artisan serve```
