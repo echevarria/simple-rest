@@ -38,10 +38,8 @@ class ClienteController extends Controller
      */
     public function store(Request $request)
     {
-        Cliente::create($request->all());
-
-        $clientes = Cliente::all();
-        return response()->json($clientes);
+        $cliente = Cliente::create($request->all());
+        return response()->json($cliente, 201);
     }
 
     /**
@@ -93,7 +91,6 @@ class ClienteController extends Controller
     {
         $cliente = Cliente::findOrFail($id);
         $cliente->delete();
-        $clientes = Cliente::all();
-        return response()->json($clientes);
+        return response()->json([], 204);
     }
 }
