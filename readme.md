@@ -2,6 +2,7 @@
 
 [![Laravel version](https://img.shields.io/badge/Laravel-v5.3.6-green.svg)](https://travis-ci.org/laravel/framework)
 [![BeMobile project](https://img.shields.io/badge/education-BeMobile-blue.svg)](https://bemobile.cc)
+[![License](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)](https://opensource.org/licenses/MIT)
 
 Exemplo de uma aplicação utilizando o framework Laravel e arquitetura REST. 
 
